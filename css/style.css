@@ -18,7 +18,7 @@
 /* Colores */
 
 :root {
-  --color-texto-header: #051549;
+  --color-texto-header1: #051549;
   --color-blanco: #ffffff;
   --color-fondo-header2: #faf4e5;
   --color-fondoboton1: #f96d6f;
@@ -34,6 +34,13 @@
   height: 100vh; 
  
   border-radius: 10px; 
+}
+.textprin{
+  color: var(--color-texto-header1);
+}
+
+.textsub{
+  color: #051549;
 }
 
 .btn__lear{
