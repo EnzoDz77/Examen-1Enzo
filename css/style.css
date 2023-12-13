@@ -8,12 +8,40 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "Mayberry";
+  src: url("../font/Mayberry\ W02\ Black.woff2") format("woff2"), 
+  url("../font/Mayberry\ W02\ Black.woff") format("woff");
 }
 
 /* ******************************** */
 
 /* Colores */
 
+:root {
+  --color-texto-header: #051549;
+  --color-blanco: #ffffff;
+  --color-fondo-header2: #faf4e5;
+  --color-fondoboton1: #f96d6f;
+  --color-fondoheader: #ead1f5;
+  --color-texto-header: #d9d9d9;
+  --color-texto-main: #000000;
+}
 /* ******************************** */
+#container{
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  height: 100vh; 
+ 
+  border-radius: 10px; 
+}
+
+.btn__lear{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--color-fondoboton1);
+  color: var(--color-blanco);
+  text-decoration: none;
+  border-radius: 10px; /* Radio de borde */
+  
+}
